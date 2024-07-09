@@ -1,0 +1,6 @@
+.section-2 .block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
