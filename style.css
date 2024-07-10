@@ -5,30 +5,44 @@
     width: 200px;
 }
 
-.section-2 .table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    border: 3px solid purple;
-  }
-  
-  thead th:nth-child(1) {
-    width: 30%;
-  }
-  
-  thead th:nth-child(2) {
-    width: 20%;
-  }
-  
-  thead th:nth-child(3) {
-    width: 15%;
-  }
-  
-  thead th:nth-child(4) {
-    width: 35%;
-  }
-  
-  th,
-  td {
-    padding: 20px;
-  }
+.section-3 td{
+  border: 2px solid black;
+}
+.section-3 .table-1 {
+  border-collapse: collapse;
+}
+.section-3 .table-1 thead { 
+  text-align: center;
+  font-weight: bold;
+}
+.section-3 .table-1 td { 
+  height: 40px;
+  width: 100px;
+}
+.section-3 .table-2 {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+
+.section-3 .table-3 {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+.section-3 .table-3 thead { 
+  text-align: center;
+  font-weight: bold;
+}
+
+.section-3 .table-3 td {
+  text-align: center;
+}
+.section-3 .table-3 .col-1 {
+  width: 70px;
+}
+.section-3 .table-3 .col-2 {
+  width: 60px;
+}
+.section-3 .table-3 .col-3 {
+  width: 250px;
+}
