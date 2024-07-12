@@ -5,6 +5,8 @@
     width: 200px;
 }
 
+
+
 .section-3 td{
   border: 2px solid black;
 }
@@ -23,8 +25,6 @@
   margin-top: 10px;
   border-collapse: collapse;
 }
-
-
 .section-3 .table-3 {
   margin-top: 10px;
   border-collapse: collapse;
@@ -47,10 +47,167 @@
   width: 250px;
 }
 
+
+
+
+.section-4 {
+  
+}
 .section-4 .block-1 {
-  width: 300px;
-  height: 200px;
+  width: 15%;
+  height: 30%;
   border: 1px solid black;
 
   white-space: normal;
 }
+.section-4 .block-2 {
+  white-space: pre;
+  /* margin-top: 5%;
+  width: 15%;
+  height: 3%;
+  border: 1px solid black; */
+}
+.section-4 .block-3 {
+  white-space: pre-warp;
+}
+.section-4 .block-4{
+
+}
+
+
+
+.section-5 {
+  background: #ACA5B7;
+  width:40%;
+  white-space: normal;
+}
+.section-5 .red-rectangle {
+  background: #BF5261;
+  margin-right: 30%;
+  margin-left: 1%;
+  gap: 3%;
+}
+.section-5 p {
+  height: 50px;
+}
+.section-5 div {
+  height: 50px;
+}
+.section-5 span {
+  display: block;
+  height: 50px;
+  width: 150px;
+}
+.section-5 h3 {
+  height: 50px;
+}
+.section-5 button {
+  text-align: center;
+  height: 50px;
+  width: 200px;
+}
+.section-5 section {
+  height: 50px;
+  width: 150px;
+}
+
+
+.section-6 div p {/*1*/
+
+}
+.section-6 div h2 {/*2*/
+
+}
+.section-6 #test p {/*3*/
+
+}
+.section-6 #test h2 {/*4*/
+
+}
+.section-6 *.bbb {/*5*/
+
+}
+.section-6 #test *.bbb {/*6*/
+
+}
+.section-6 p.bbb {/*7*/
+
+}
+.section-6 h2.bbb, h2#test {/*8*/
+
+}
+.section-6 #test p.bbb {/*9*/
+
+}
+.section-6 *.bbb , *.xxx{/*10*/
+
+}
+.section-6 p.bbb, h1.xxx {/*11*/
+
+}
+.section-6 #test p.bbb, #test p.xxx {/*12*/
+
+}
+.section-6 .fff * {/*13*/
+
+}
+.section-6 .fff p {/*14*/
+
+}
+.section-6 p.fff {/*15*/
+  
+}
+.section-6 .fff *.bbb {/*16*/
+  
+}
+.section-6 .fff h2.bbb {/*17*/
+
+}
+.section-6 *[type="span"] {/*18*/
+
+}
+.section-6 [data-value='45'] {/*19*/
+
+}
+.section-6 .parent .child {/*20*/
+
+}
+.section-6 .text.active {/*21*/
+
+}
+.section-6 #my-list ul:nth-child(2){/*22*/
+
+}
+.section-6 div h1 > p {/*23*/
+
+}
+.section-6 div div ~ p {/*24*/
+
+}
+.section-6 div:not(img) {/*25*/
+
+}
+
+
+.section-7 .parent {
+  width: 30%;
+  height: 30%;
+  background: #FFB3CA;
+  display: flex;
+}
+.section-7 .parent .child {
+  width: 20%;
+  height: 20%;
+  margin: 5%;
+  border: 2px solid black;
+  background-color: #FF0000;
+}
+.section-7 .image {
+  background-image: url("./images/Rectangle 26.png");
+  width: 600px;
+  height: 400px;
+}
+.section-7 .image .venus {
+  
+}
+
