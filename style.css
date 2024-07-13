@@ -190,14 +190,16 @@
 
 
 .section-7 .parent {
-  width: 30%;
-  height: 30%;
+  width: 300px;
+  height: 300px;
   background: #FFB3CA;
   display: flex;
+  white-space: normal;
+  justify-content: space-between;
 }
 .section-7 .parent .child {
-  width: 20%;
-  height: 20%;
+  width: fit-content;
+  height: fit-content;
   margin: 5%;
   border: 2px solid black;
   background-color: #FF0000;
@@ -245,3 +247,65 @@
   width: 9%;
 }
 
+
+
+.section-9 {
+  width: 40%;
+  height: 120vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.section-9 .parent {
+  width: 100%;
+  background: #990099;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  
+}
+.section-9 .child{
+  background: #F37B20;
+  height: 30%;
+}
+.section-9 .parent:first-of-type {
+  height: 35%;
+  padding-left: 7%;
+  padding-top: 2%;
+  
+}
+.section-9 .parent:first-of-type .child {
+  height: 20%;
+  width: 15%;
+}
+.section-9 .parent:first-of-type .child.wide {
+  width: 25%;
+}
+.section-9 .parent.task-2-6 {
+  height: 20%;
+}
+.section-9 .parent.task-2-6 .child {
+  height: 70%;
+}
+.section-9 .parent.task-2-6 .child:first-of-type {
+  width: 20%;
+}
+.section-9 .parent.task-2-6 .child:nth-of-type(2) {
+  width: 10%;
+}
+.section-9 .parent.task-2-6 .child:nth-of-type(3) {
+  width: 40%;
+}
+.section-9 .parent.task-2-6:nth-of-type(3) {
+  justify-content: flex-end;
+}
+.section-9 .parent.task-2-6:nth-of-type(4) {
+  justify-content: center;
+}
+.section-9 .parent.task-2-6:nth-of-type(5) {
+  justify-content: space-between;
+}
+.section-9 .parent.task-2-6:nth-of-type(6) {
+  justify-content: space-around;
+}
