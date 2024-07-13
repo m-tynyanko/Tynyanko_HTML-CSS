@@ -206,8 +206,42 @@
   background-image: url("./images/Rectangle 26.png");
   width: 600px;
   height: 400px;
+  position: absolute;
+}
+.section-7 .image * {
+  position: absolute;
 }
 .section-7 .image .venus {
-  
+  top: 35%;
+  left: 25%;
+  width: 40%;
+}
+.section-7 .image .neptune {
+  top: 20%;
+  left: 7%;
+  width: 28%;
+}
+.section-7 .image .uranus {
+  top: 5%;
+  left: 27%;
+  width: 19%;
+}
+.section-7 .image .ufo  {
+  top: 73%;
+  left: 20%;
+}
+.section-7 .image .super-man {
+  top: 75.5%;
+  left: 80%;
+}
+.section-7 .image .potato {
+  top: 20%;
+  left: 71%;
+  width: 12%;
+}
+.section-7 .image .rocket {
+  top: 40%;
+  left: 22%;
+  width: 9%;
 }
 
