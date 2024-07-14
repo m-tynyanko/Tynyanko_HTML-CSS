@@ -50,28 +50,33 @@
 
 
 
-.section-4 {
-  
-}
+
 .section-4 .block-1 {
   width: 15%;
   height: 30%;
   border: 1px solid black;
-
   white-space: normal;
 }
 .section-4 .block-2 {
-  white-space: pre;
-  /* margin-top: 5%;
+  margin-top: 5%;
   width: 15%;
   height: 3%;
-  border: 1px solid black; */
+  border: 1px solid black;
+  white-space: nowrap;
 }
 .section-4 .block-3 {
-  white-space: pre-warp;
+  width: 15%;
+  height: 30%;
+  border: 1px solid black;
+  white-space: nowrap;
+  
 }
-.section-4 .block-4{
-
+.section-4 .block-4 p {
+  white-space: pre;
+}
+.section-4 {
+  margin: 0;
+  padding: 10px;
 }
 
 
@@ -79,13 +84,19 @@
 .section-5 {
   background: #ACA5B7;
   width:40%;
+  height: 60vh;
   white-space: normal;
+  padding: 1%;
+  gap: 5%;
+}
+.section-5 .block-1, .block-2  {
+  white-space: normal;
+  gap: 1%;
+  height: 35%;
+  width: 65%;
 }
 .section-5 .red-rectangle {
   background: #BF5261;
-  margin-right: 30%;
-  margin-left: 1%;
-  gap: 3%;
 }
 .section-5 p {
   height: 50px;
