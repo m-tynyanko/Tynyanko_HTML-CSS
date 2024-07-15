@@ -542,5 +542,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%) 
+}
+
+.section-12 .background-image {
+  width: 522px;
+  height: 314px;
+  border: 1px solid black;
+  background-image: 
+  url(./images/Rectangle\ 35.png),
+  url(./images/Rectangle\ 35.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 135% -30%, -30% 120%;
+  
 }
