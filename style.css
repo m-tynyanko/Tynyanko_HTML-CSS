@@ -555,5 +555,106 @@
   background-repeat: no-repeat;
   background-size: 45%;
   background-position: 135% -30%, -30% 120%;
-  
 }
+
+.section-13 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-13 .parent {
+  width: 500px;
+  height: 250px;
+  background: #AAA9B7;
+}
+.section-13 .parent__child-1, .section-13 .parent__child-2 {
+  width: 120px;
+  height: 80px;
+  background: #B76269;
+}
+.section-13 .parent__child-1 {
+  padding: 15px;
+  padding: 15px 24px;
+  padding: 15px 0 24px;
+  /* padding: 1px 2px 3px 4px; */
+}
+.section-13 .parent__child-2 {
+  margin: 4px;
+  margin: 0 auto;
+  margin: 15px 0 24px;
+  /* margin: 1px 2px 3px 4px; */
+}
+.section-13 .description {
+  white-space: normal;
+}
+
+.section-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-14 .inline-grid-container {
+  width: 568px;
+  height: 320px;
+  background: #B0C4DE;
+  display: inline-grid;
+  grid-template-columns: 1fr 2fr;
+}
+.section-14 .inline-grid-container__page {
+  display: inline-grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.section-14 .inline-grid-container__body {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section-14 .inline-grid-container__side-1 {
+  display: inline-grid;
+  grid-template-rows: 1fr 1fr;
+}
+.section-14 .block {
+  background: #2196F3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  color: #FAFAFA;
+  font-size: 25px;
+  margin: 5px;
+}
+.section-14 .grid-area-container {
+  width: 568px;
+  height: 320px;
+  background: #B0C4DE;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    'nav   header  header'
+    'nav   main    aside'
+    'nav   section aside'
+    'nav   footer  footer';
+
+}
+ 
+.section-14 .grid-area-container__nav {
+  grid-area: nav;
+}
+
+.section-14 .grid-area-container__header {
+  grid-area: header;
+}
+.section-14 .grid-area-container__main {
+  grid-area: main;
+}
+.section-14 .grid-area-container__section{
+  grid-area: section;
+}
+.section-14 .grid-area-container__aside {
+  grid-area: aside;
+}
+.section-14 .grid-area-container__footer {
+  grid-area: footer;
+} 
