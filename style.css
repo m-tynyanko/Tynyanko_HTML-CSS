@@ -664,7 +664,7 @@
   flex-direction: column;
   gap: 10px;
 }
-.section-15 .section-15__grid-parent {
+.section-15 .grid-parent {
   background: #FFAEC5;
   width: 542px;
   height: 368px;
@@ -673,21 +673,48 @@
   gap: 10px;
   padding: 10px;
 }
-.section-15 .child {
+.section-15 .grid-parent__grid-child {
   background: #FF0D0F;
   width: 90px;
   height: 90px;
   border: 3px solid black;
 }
-.section-15 .grid-parent-1 {
+.section-15 .grid-parent:first-of-type {
   align-items: center;
   justify-items: center;
 }
-.section-15 .grid-parent-2 {
+.section-15 .grid-parent:nth-of-type(2) {
   align-self: center;
   justify-self: center;
 }
-.section-15 .grid-parent-3__child:nth-last-of-type(5){
+.section-15 .grid-parent:nth-of-type(3) .grid-parent__grid-child:nth-of-type(5){
   align-self: center;
   justify-self: center;
+}
+.section-15 .flex-parent {
+  background: #FFAEC5;
+  width: 488px;
+  height: 622px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+.section-15 .flex-parent__flex-child {
+  background: #FF0D0F;
+  width: 110px;
+  height: 110px;
+  border: 6px solid black;
+}
+.section-15 .flex-parent:nth-of-type(4) {
+  align-items: center;
+  justify-content: center;
+}
+.section-15 .flex-parent:nth-of-type(5) {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.section-15 .flex-parent:nth-of-type(6) .flex-parent__flex-child:last-of-type {
+  align-self: flex-end;
+  margin-left: auto;
 }
