@@ -5,8 +5,6 @@
     width: 200px;
 }
 
-
-
 .section-3 td{
   border: 2px solid black;
 }
@@ -137,84 +135,81 @@
 
 
 .section-6 div p {/*1*/
-
+  background: red;
 }
 .section-6 div h2 {/*2*/
-
+  background: blue;
 }
 .section-6 #test p {/*3*/
-
+  background: thistle;
 }
 .section-6 #test h2 {/*4*/
-
+  background: greenyellow;
 }
 .section-6 *.bbb {/*5*/
-
+  background: green;
 }
 .section-6 #test *.bbb {/*6*/
-
+  background: rebeccapurple;
 }
 .section-6 p.bbb {/*7*/
-
+  background: yellow;
 }
 .section-6 h2.bbb,.section-6 h2#test {/*8*/
-
+  background: yellowgreen;
 }
 .section-6 #test p.bbb {/*9*/
-
+  background: orange;
 }
 .section-6 *.bbb ,.section-6 *.xxx{/*10*/
-
+  background: palevioletred;
 }
 .section-6 p.bbb,.section-6 h1.xxx {/*11*/
-
+  background: firebrick;
 }
 .section-6 #test p.bbb,.section-6 #test p.xxx {/*12*/
-
+  background: mediumaquamarine;
 }
 .section-6 .fff * {/*13*/
-
+  background: wheat;
 }
 .section-6 .fff p {/*14*/
-
+  background: cornflowerblue;
 }
 .section-6 p.fff {/*15*/
-  
+  background: aqua;
 }
 .section-6 .fff *.bbb {/*16*/
-  
+  background: teal;
 }
 .section-6 .fff h2.bbb {/*17*/
-
+  background: purple;
 }
 .section-6 *[type="span"] {/*18*/
-
+  background: violet;
 }
 .section-6 [data-value='45'] {/*19*/
-
+  background: khaki;
 }
 .section-6 .parent .child {/*20*/
-
+  background: olive;
 }
 .section-6 .text.active {/*21*/
-
+  background: navy;
 }
 .section-6 #my-list ul:nth-child(2){/*22*/
-
+  background: navajowhite;
 }
 .section-6 div h1 > p {/*23*/
-
+  background: darkmagenta;
 }
 .section-6 div div ~ p {/*24*/
-
+  background: brown;
 }
 .section-6 div:not(img) {/*25*/
-
+  background: mediumspringgreen;
 }
 
-.position-7{ 
-  
-}
 .section-7 .parent {
   width: 350px;
   height: 350px;
@@ -233,28 +228,17 @@
   background-color: #FF0000;
   position: static;
 }
-/* .section-7 .parent .child.pos-2 {
+.section-7 .parent.pos-1 .child.pos-2 {
   position: absolute;
   top: 50px;
   left: 50px;
-} */
+}
 
-/*
-При применении position absolute 
-блок изчезает с того места, где находился, 
-и позиционируется заново.
-*/
-
-.section-7 .parent .child.pos-2 {
+.section-7 .parent.pos-2 .child.pos-2 {
   position: relative;
   top: 50px;
   left: 50px;
 }
-/*
-При применении position relative 
-блок изменяет свое положение относительно своего предыдущего
-положенияю
-*/
 .section-7 .image {
   background-image: url("./images/Rectangle 26.png");
   width: 600px;
@@ -417,6 +401,28 @@
   height: 163px;
   padding: 0;
   align-items: baseline;
+  justify-content: space-between;
+}
+.section-9 .parent:last-of-type .child.type-1 {
+  width: 20%;
+  height: 80%;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.section-9 .parent:last-of-type .child.type-2 {
+  width: 25%;
+  height: 50%;
+  font-size: 10px;
+  
+}
+.section-9 .parent:last-of-type .child.type-3 {
+  width: 25%;
+  height: 60%;
+  font-size: 20px;
+}
+.section-9 .parent:last-of-type .child.type-4 {
+  width: 20%;
+  height: 85%;
 }
 
 .section-10 .page {
