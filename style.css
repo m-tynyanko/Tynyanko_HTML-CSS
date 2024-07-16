@@ -429,7 +429,7 @@
   row-gap: 2%;
 }
 
-.section-10 .page__header__text {
+.section-10 .header__text {
   font-size: 12px;
 }
 .section-10 .page__body {
@@ -437,7 +437,7 @@
   width: 100%;
   height: 60%;
 }
-.section-10 .page__body__main {
+.section-10 .body__main {
   background: #FEFDE1;
   width: 70%;
   display: flex;
@@ -445,7 +445,7 @@
   align-items: center;
   font-size: 12px;
 }
-.section-10 .page__body__main__additional-sections {
+.section-10 .main__additional-sections {
   width: 100%;
   height: 40%;
   display: flex;
@@ -456,7 +456,7 @@
   margin: 6%;
   padding-left: 9%;
 }
-.section-10 .page__body__main__additional-sections__more-1 {
+.section-10 .main__additional-section-1 {
   background: #FDF7B4;
   width: 43%;
   height: 55%;
@@ -466,7 +466,7 @@
   align-items: center;
 
 }
-.section-10 .page__body__main__additional-sections__more-2 {
+.section-10 .main__additional-section-2 {
   background: #FDF7B4;
   width: 43%;
   height: 55%;
@@ -476,7 +476,7 @@
   align-items: center;
 
 } 
-.section-10 .page__body__main__additional-sections__more-3 {
+.section-10 .main__additional-section-3 {
   background: #FDF7B4;
   width: 90%;
   height: 55%;
@@ -487,7 +487,7 @@
   align-items: center;
 } 
 
-.section-10 .page__body__side {
+.section-10 .body__side {
   background: #D4F8C9;
   width: 30%;
   display: flex;
@@ -504,7 +504,7 @@
   font-weight: bold;
   align-items: center;
 }
-.section-10 .page__footer * {
+.section-10 .footer__section {
   width: 20%;
   height: 85%;
   background: #FAFAFA;
