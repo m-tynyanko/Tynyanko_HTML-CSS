@@ -9,40 +9,39 @@
 .section-3 td{
   border: 2px solid black;
 }
-.section-3 .table-1 {
+.table-1 {
   border-collapse: collapse;
 }
-.section-3 .table-1 thead { 
+.table-1 thead { 
   text-align: center;
   font-weight: bold;
 }
-.section-3 .table-1 td { 
+.table-1 td { 
   height: 40px;
   width: 100px;
 }
-.section-3 .table-2 {
+.table-2 {
   margin-top: 10px;
   border-collapse: collapse;
 }
-.section-3 .table-3 {
+.table-3 {
   margin-top: 10px;
   border-collapse: collapse;
 }
-.section-3 .table-3 thead { 
+.table-3 thead { 
   text-align: center;
   font-weight: bold;
 }
-
-.section-3 .table-3 td {
+.table-3 td {
   text-align: center;
 }
-.section-3 .table-3 .col-1 {
+.col-1 {
   width: 70px;
 }
-.section-3 .table-3 .col-2 {
+.col-2 {
   width: 60px;
 }
-.section-3 .table-3 .col-3 {
+.col-3 {
   width: 250px;
 }
 /*section #4*/
@@ -194,13 +193,13 @@
 .section-6 #my-list ul li:nth-of-type(2){/*22*/
   background: navajowhite;
 }
-.section-6 .parent.tasks-23-25 *:not(img) {/*25*/
+.section-6 .parent.tasks-23-25 *:not(img) {/*25 0/0/3/1*/
   background: mediumspringgreen;
 }
-.section-6 .parent.tasks-23-25 div ~ p {/*24*/
+.section-6 .parent.tasks-23-25 div ~ p {/*24 0/0/3/2*/
   background: brown;
 }
-.section-6 .parent.tasks-23-25 h1 + p {/*23*/
+.section-6 .parent.tasks-23-25 h1 + p {/*23 0/0/3/2*/
   background: darkmagenta;
 }
 /*section #7*/
@@ -232,44 +231,44 @@
   top: 50px;
   left: 50px;
 }
-.section-7 .image {
+.image {
   background-image: url("./images/Rectangle 26.png");
   width: 600px;
   height: 400px;
   position: relative;
 }
-.section-7 .image * {
+.image * {
   position: absolute;
 }
-.section-7 .image .venus {
+.image .venus {
   top: 35%;
   left: 25%;
   width: 40%;
 }
-.section-7 .image .neptune {
+.image .neptune {
   top: 20%;
   left: 7%;
   width: 28%;
 }
-.section-7 .image .uranus {
+.image .uranus {
   top: 5%;
   left: 27%;
   width: 19%;
 }
-.section-7 .image .ufo  {
+.image .ufo  {
   top: 73%;
   left: 20%;
 }
-.section-7 .image .super-man {
+.image .super-man {
   top: 75.5%;
   left: 80%;
 }
-.section-7 .image .potato {
+.image .potato {
   top: 20%;
   left: 71%;
   width: 12%;
 }
-.section-7 .image .rocket {
+.image .rocket {
   top: 40%;
   left: 22%;
   width: 9%;
@@ -533,7 +532,7 @@
   transform: translate(-50%, -50%) 
 }
 /*section #12*/
-.section-12 .background-image {
+.background-image {
   width: 522px;
   height: 314px;
   border: 1px solid black;
@@ -565,13 +564,11 @@
   padding: 15px;
   padding: 15px 24px;
   padding: 15px 0 24px;
-  /* padding: 1px 2px 3px 4px; */
 }
 .section-13 .parent__child-2 {
   margin: 4px;
   margin: 0 auto;
   margin: 15px 0 24px;
-  /* margin: 1px 2px 3px 4px; */
 }
 .section-13 .description {
   white-space: normal;
